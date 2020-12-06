@@ -1,0 +1,17 @@
+// Constant variable in JS. 
+// Today's forecast is 293 K. 
+const kelvin = 0; 
+
+// Convert Kelvin to Celsius. 
+let celsius = kelvin// Convert Celsius to Fahrenheit. 
+let fahrenheit = celsius * (9/5) + 32; 
+
+// Round down all decimals to integers. 
+fahrenheit = Math.floor(fahrenheit); 
+
+console.log(`Temperature: ${kelvin} Kelvin`); 
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`); 
+
+let newton = celsius * (33/100); 
+newton = Math.floor(newton); 
+console.log(`The temperateure is ${newton} degrees Newton.`); 
